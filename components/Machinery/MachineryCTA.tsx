@@ -13,7 +13,7 @@ export default function MachineryCTA() {
             </h2>
             <p className="text-[#cbbab0] text-lg font-normal leading-relaxed">
               Our engineering team specializes in custom production line design.
-              Let's discuss how we can optimize your facility's efficiency.
+              Lets discuss how we can optimize your facilitys efficiency.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
