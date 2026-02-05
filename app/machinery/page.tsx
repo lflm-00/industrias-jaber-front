@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer";
 import MachineryHero from "@/components/Machinery/MachineryHero";
 import CategoryFilter from "@/components/Machinery/CategoryFilter";

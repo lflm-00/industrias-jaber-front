@@ -17,13 +17,13 @@ export default function MachineryCTA() {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold shadow-xl shadow-primary/30 transition-all hover:scale-105">
-              <span className="material-symbols-outlined mr-2">mail</span>
-              <Link
-                  href="/Contact">
-                  Request Consultation
-                </Link>
-            </button>
+            <Link
+              href="/Contact">
+              <button className="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold shadow-xl shadow-primary/30 transition-all hover:scale-105">
+                <span className="material-symbols-outlined mr-2">mail</span>
+                Request Consultation
+              </button>
+            </Link>
             <button className="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white/10 text-white text-base font-bold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all">
               Download Brochure
             </button>
