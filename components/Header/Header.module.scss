@@ -1,0 +1,115 @@
+/* Variables opcionales */
+$drawer-width: 250px;
+$drawer-padding: 2rem;
+
+/* Overlay oscuro */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 49;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.3s ease;
+
+  &.animate-fade-in {
+    animation: fade-in 0.3s ease forwards;
+  }
+}
+
+/* Drawer lateral */
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: $drawer-width;
+  background-color: var(--background-light, #fff);
+  color: var(--text-dark, #181411);
+  z-index: 50;
+  padding: $drawer-padding;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+
+  /* Animación */
+  &.animate-slide-in {
+    animation: slide-in 0.3s ease forwards;
+  }
+
+  /* Header del drawer (logo + botón) */
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      span {
+        font-size: 1.75rem; // icono más pequeño que en header
+        color: var(--primary, #b8630f);
+      }
+
+      h2 {
+        font-size: 0.875rem; // text-base más pequeño
+        font-weight: 700;
+        color: inherit;
+      }
+    }
+
+    .close-btn {
+      span {
+        font-size: 1.75rem;
+        color: inherit;
+      }
+    }
+  }
+
+  /* Navegación dentro del drawer */
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    a {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      &:hover {
+        color: var(--primary, #b8630f);
+      }
+    }
+  }
+
+  /* Modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--background-dark, #1c1a18);
+    color: #f8f7f6;
+  }
+}
+
+/* Animaciones */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
