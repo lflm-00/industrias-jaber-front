@@ -45,7 +45,6 @@ export default function Header() {
       </div>
 
       {/* Drawer mobile */}
-      {/* Drawer mobile */}
       {isOpen && (
         <>
           {/* Overlay */}
@@ -59,14 +58,13 @@ export default function Header() {
             {/* Header del drawer: botón de cerrar + logo */}
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center gap-2">
-  <span className="material-symbols-outlined text-3xl text-primary">
-    coffee_maker
-  </span>
-  <h2 className="text-inherit text-base font-bold">
-    Industrias Jaber
-  </h2>
-</div>
-
+                <span className="material-symbols-outlined text-3xl text-primary">
+                  coffee_maker
+                </span>
+                <h2 className="text-inherit text-base font-bold">
+                  Industrias Jaber
+                </h2>
+              </div>
               <button
                 className="text-[#181411] dark:text-white"
                 onClick={() => setIsOpen(false)}
