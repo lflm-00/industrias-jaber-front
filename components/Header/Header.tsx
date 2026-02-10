@@ -99,7 +99,7 @@ function NavLinks({ onClick }: { onClick?: () => void }) {
       <Link href="/machinery" className={linkClass} onClick={onClick}>
         Machinery
       </Link>
-      <Link href="/#about" className={linkClass} onClick={onClick}>
+      <Link href="/about" className={linkClass} onClick={onClick}>
         About Us
       </Link>
     </>

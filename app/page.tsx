@@ -1,6 +1,4 @@
-import { Footer } from "@/components";
-import { Header } from "@/components/Header";
-import {Hero, Processes, CTA } from "@/components/Home";
+import { Header, Hero, Processes, CTA, Footer } from "@/components";
 
 export default function Home() {
   return (

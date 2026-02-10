@@ -4,3 +4,4 @@ export * from "./Header";
 export * from "./Home";
 export * from "./Contact";
 export * from "./Machinery";
+export * from "./About";

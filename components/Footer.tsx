@@ -53,7 +53,7 @@ export default function Footer() {
           </h4>
           <ul className="flex flex-col gap-3 text-sm text-[#897561] dark:text-[#a8998a]">
             <li>
-              <Link className="hover:text-primary" href="#">
+              <Link className="hover:text-primary" href="/about">
                 About Us
               </Link>
             </li>
@@ -68,7 +68,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary" href="#">
+              <Link className="hover:text-primary" href="/contact">
                 Contact
               </Link>
             </li>
@@ -81,10 +81,10 @@ export default function Footer() {
           <p className="text-sm text-[#897561] dark:text-[#a8998a] leading-relaxed">
             123 Coffee Way, Industrial District
             <br />
-            Bogotá, Colombia
+            Armenia - Quindío, Colombia
             <br />
             <span className="block mt-4 font-bold text-primary">
-              +57 (1) 555-0123
+              +57 (316) 660-5222
             </span>
           </p>
         </div>
