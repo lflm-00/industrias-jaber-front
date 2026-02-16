@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
+import { Providers } from "@/components/Providers";
 import "./globals.css";
 
 const workSans = Work_Sans({
@@ -28,7 +29,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${workSans.variable} font-display antialiased`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

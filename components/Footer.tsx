@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useLanguage } from "@/lib/hooks/useLanguage";
 import Logo from "./Logo";
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className="px-4 lg:px-40 py-12 border-t border-[#e8e4e0] dark:border-[#3a2f24] bg-background-light dark:bg-background-dark">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -13,89 +18,88 @@ export default function Footer() {
             </h2>
           </div>
           <p className="text-sm text-[#897561] dark:text-[#a8998a] leading-relaxed">
-            Precision engineering for the global coffee industry. Sustainable,
-            efficient, and built to last.
+            {t("footer.precision")}
           </p>
         </div>
         <div>
           <h4 className="font-bold text-[#181411] dark:text-white mb-6">
-            Products
+            {t("footer.products")}
           </h4>
           <ul className="flex flex-col gap-3 text-sm text-[#897561] dark:text-[#a8998a]">
             <li>
               <Link className="hover:text-primary" href="#">
-                Roasters
+                {t("footer.roasters")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="#">
-                Dryers
+                {t("footer.dryers")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="#">
-                Grinders
+                {t("footer.grinders")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="#">
-                Cleaning Systems
+                {t("footer.cleaningSystems")}
               </Link>
             </li>
           </ul>
         </div>
         <div>
           <h4 className="font-bold text-[#181411] dark:text-white mb-6">
-            Company
+            {t("footer.company")}
           </h4>
           <ul className="flex flex-col gap-3 text-sm text-[#897561] dark:text-[#a8998a]">
             <li>
               <Link className="hover:text-primary" href="/about">
-                About Us
+                {t("footer.about")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="#">
-                Process
+                {t("footer.process")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="#">
-                Sustainability
+                {t("footer.sustainability")}
               </Link>
             </li>
             <li>
               <Link className="hover:text-primary" href="/contact">
-                Contact
+                {t("footer.contact")}
               </Link>
             </li>
           </ul>
         </div>
         <div>
           <h4 className="font-bold text-[#181411] dark:text-white mb-6">
-            Headquarters
+            {t("footer.headquarters")}
           </h4>
           <p className="text-sm text-[#897561] dark:text-[#a8998a] leading-relaxed">
-            123 Coffee Way, Industrial District
+            {t("footer.address")}
             <br />
-            Armenia - Quindío, Colombia
+            {t("footer.city")}
             <br />
             <span className="block mt-4 font-bold text-primary">
-              +57 (316) 660-5222
+              {t("footer.phone")}
             </span>
           </p>
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-[#e8e4e0] dark:border-[#3a2f24] flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-xs text-[#897561] dark:text-[#a8998a]">
-          © 2024 Industrias Jaber S.A. All rights reserved.
+          {t("footer.allRightsReserved")}
         </p>
         <div className="flex gap-6 text-xs text-[#897561] dark:text-[#a8998a]">
           <Link className="hover:text-primary" href="#">
-            Privacy Policy
+            {t("footer.privacyPolicy")}
           </Link>
           <Link className="hover:text-primary" href="#">
-            Terms of Service
+            {t("footer.termsOfService")}
           </Link>
         </div>
       </div>

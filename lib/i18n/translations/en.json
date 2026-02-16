@@ -1,0 +1,236 @@
+{
+  "common": {
+    "language": "Language",
+    "spanish": "Español",
+    "english": "English",
+    "logo": "Industrias Jaber",
+    "copyright": "© 2024 Industrias Jaber S.A. All rights reserved.",
+    "tagline": "Precision engineering for the global coffee industry.",
+    "backToHome": "Back to Home",
+    "loading": "Loading..."
+  },
+  "auth": {
+    "login": {
+      "title": "Industrias Jaber",
+      "subtitle": "Management Portal",
+      "email": "Email Address",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Sign In",
+      "loggingIn": "Signing in...",
+      "demoCredentials": "Demo Credentials:",
+      "emailPlaceholder": "user@example.com",
+      "passwordPlaceholder": "••••••••",
+      "invalidCredentials": "Invalid email or password",
+      "errors": {
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "invalidEmail": "Invalid email"
+      }
+    },
+    "logout": "Sign Out",
+    "hello": "Hello",
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "userInfo": "User Information",
+    "name": "Name",
+    "email": "Email",
+    "id": "ID",
+    "orders": "Orders",
+    "ordersDescription": "Pending orders this week",
+    "customers": "Customers",
+    "customersDescription": "Active customers in the system",
+    "revenue": "Revenue",
+    "revenueDescription": "Current month revenue",
+    "recentActivity": "Recent Activity",
+    "orderCreated": "Order created",
+    "hoursAgo": "{hours} hours ago",
+    "completed": "Completed",
+    "newCustomer": "New customer registered",
+    "new": "New",
+    "inventoryUpdate": "Inventory update",
+    "inProgress": "In Progress"
+  },
+  "header": {
+    "home": "Home",
+    "processes": "Processes",
+    "machinery": "Machinery",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Sign In"
+  },
+  "footer": {
+    "about": "About Us",
+    "precision": "Precision engineering for the global coffee industry. Sustainable, efficient, and built to last.",
+    "products": "Products",
+    "roasters": "Roasters",
+    "dryers": "Dryers",
+    "grinders": "Grinders",
+    "cleaningSystems": "Cleaning Systems",
+    "company": "Company",
+    "process": "Process",
+    "sustainability": "Sustainability",
+    "contact": "Contact",
+    "headquarters": "Headquarters",
+    "address": "123 Coffee Way, Industrial District",
+    "city": "Armenia - Quindío, Colombia",
+    "phone": "+57 (316) 660-5222",
+    "allRightsReserved": "© 2024 Industrias Jaber S.A. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "home": {
+    "tag": "Innovative Engineering",
+    "title": "Excellence in Coffee Processing Machinery",
+    "subtitle": "Industrias Jaber provides premium solutions for every stage of your production, from harvesting the cherry to the perfect final grind.",
+    "exploreMachinery": "Explore Machinery",
+    "watchDemo": "Watch Demo",
+    "yearsExperience": "Years of Experience",
+    "processes": {
+      "title": "Our Processes",
+      "subtitle": "Complete coffee processing solutions",
+      "harvesting": "Harvesting",
+      "harvestingDesc": "Our advanced sorting and cleaning technology ensures only the finest cherries move forward in your production line.",
+      "roasting": "Roasting",
+      "roastingDesc": "Precision temperature control and airflow management for achieving the perfect bean profile every single time.",
+      "grinding": "Grinding",
+      "grindingDesc": "Uniform particle size distribution for optimal extraction. Engineered for high-volume industrial environments."
+    },
+    "cta": {
+      "title": "Ready to elevate your coffee production?",
+      "subtitle": "Join hundreds of growers and roasters who have scaled their business with Jaber machinery. Contact our experts today for a customized machinery consultation.",
+      "contactButton": "Contact Us",
+      "catalogButton": "Request Catalog"
+    }
+  },
+  "machinery": {
+    "hero": {
+      "tag": "Product Catalog",
+      "title": "Machinery for Every Stage",
+      "description": "Explore our range of high-performance industrial equipment designed specifically for the unique demands of coffee production."
+    },
+    "categories": {
+      "roasting": "Roasting",
+      "grinding": "Grinding",
+      "processing": "Processing",
+      "cleaning": "Cleaning"
+    },
+    "card": {
+      "viewButton": "View Specifications"
+    },
+    "cta": {
+      "title": "Need a custom machinery solution?",
+      "subtitle": "Our engineering team specializes in custom production line design. Let's discuss how we can optimize your facility's efficiency.",
+      "consultButton": "Request Consultation",
+      "brochureButton": "Download Brochure"
+    },
+    "title": "Machinery",
+    "subtitle": "Professional equipment for the coffee industry",
+    "noResults": "No results found",
+    "filterBy": "Filter by"
+  },
+  "about": {
+    "hero": {
+      "tag": "Legacy & Innovation",
+      "title": "Decades of Engineering Perfection",
+      "description": "From a small workshop to a global leader in coffee processing, our journey is defined by a passion for the perfect bean."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in the heart of the coffee belt, Industrias Jaber began with a single vision: to build machinery that respects the artisanal nature of coffee while providing the efficiency of modern engineering. Our founder, an engineer and third-generation coffee grower, saw the need for precision tools that could withstand the rigors of industrial production without sacrificing the subtle profiles of specialty beans.",
+      "paragraph2": "Today, we combine traditional craftsmanship with cutting-edge digital controls, ensuring that every piece of machinery leaving our floor is a testament to our heritage and a tool for your future growth.",
+      "founded": "Founded",
+      "countries": "Countries Served",
+      "quote": "Engineering the soul of coffee since 1984."
+    },
+    "corePrinciples": {
+      "tag": "Core Principles",
+      "title": "Mission & Values",
+      "sustainability": "Sustainability",
+      "sustainabilityDesc": "We design machinery that minimizes energy consumption and water waste, ensuring the coffee industry thrives for generations.",
+      "innovation": "Innovation",
+      "innovationDesc": "Constant R&D allows us to integrate smart sensors and AI-driven roasting profiles into every machine we build.",
+      "quality": "Quality",
+      "qualityDesc": "Using only premium materials like food-grade stainless steel and heavy-duty motors, our machines are built for life."
+    },
+    "leadership": {
+      "tag": "Leadership",
+      "title": "Meet the Experts",
+      "description": "Our team brings together mechanical engineers, roast masters, and agronomists to provide a 360° perspective on coffee technology.",
+      "alejandro": {
+        "name": "Alejandro Jaber",
+        "role": "CEO & Founder",
+        "description": "A visionary engineer with 40 years of experience in thermal dynamics and coffee science."
+      },
+      "elena": {
+        "name": "Elena Martinez",
+        "role": "Head of R&D",
+        "description": "Leading the transition into IoT-enabled machinery and sustainable roasting technologies."
+      },
+      "julian": {
+        "name": "Julian Rojas",
+        "role": "Chief Operations",
+        "description": "Ensuring that every client across 5 continents receives world-class support and installation."
+      },
+      "sofia": {
+        "name": "Sofia Gomez",
+        "role": "Lead Roast Master",
+        "description": "Bridging the gap between engineering and the perfect cup, testing every prototype personally."
+      }
+    },
+    "title": "About Us",
+    "hero": "Leading Innovation in the Coffee Industry",
+    "story": "Our Story",
+    "corePrinciples": "Core Principles"
+  },
+  "contact": {
+    "hero": {
+      "tag": "Get in Touch",
+      "title": "Contact Our Technical Experts",
+      "description": "Whether you are looking to start a new roasting facility or upgrade your industrial grinding equipment, our team is here to provide professional guidance."
+    },
+    "info": {
+      "location": {
+        "title": "Physical Headquarters",
+        "address1": "123 Coffee Way, Industrial District",
+        "address2": "Machinery Plaza, Suite 400",
+        "address3": "Bogotá, Colombia 110111"
+      },
+      "phone": {
+        "title": "Direct Line",
+        "number": "+57 (1) 555-0123",
+        "hours": "Mon - Fri, 8am to 6pm COT"
+      },
+      "email": {
+        "title": "Official Email",
+        "primary": "contact@industriasjaber.com",
+        "support": "support@industriasjaber.com"
+      }
+    },
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "John Doe",
+      "companyLabel": "Company Name",
+      "companyPlaceholder": "Roasters Co.",
+      "emailLabel": "Work Email",
+      "emailPlaceholder": "john@company.com",
+      "helpLabel": "How can we help?",
+      "option1": "Machinery Inquiry",
+      "option2": "Maintenance Support",
+      "option3": "Custom Engineering",
+      "option4": "Partnership",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your project or specific machinery needs...",
+      "submitButton": "Send Message",
+      "responseTime": "We typically respond within 1 business day."
+    },
+    "title": "Contact",
+    "getInTouch": "Get in Touch",
+    "sendMessage": "Send Message",
+    "successMessage": "Message sent successfully",
+    "errorMessage": "Error sending message"
+  }
+}

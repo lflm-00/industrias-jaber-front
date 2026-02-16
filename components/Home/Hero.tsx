@@ -1,6 +1,11 @@
+"use client";
+
+import { useLanguage } from "@/lib/hooks/useLanguage";
 import Link from "next/link";
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="px-4 lg:px-40 py-12 lg:py-24">
       <div className="@container max-w-[1200px] mx-auto">
@@ -8,25 +13,23 @@ export default function Hero() {
           <div className="flex flex-col gap-8 flex-1 @[480px]:min-w-[400px]">
             <div className="flex flex-col gap-4">
               <span className="text-primary font-bold tracking-widest text-xs uppercase bg-primary/10 w-fit px-3 py-1 rounded-full">
-                Innovative Engineering
+                {t("home.tag")}
               </span>
               <h1 className="text-[#181411] dark:text-white text-5xl font-black leading-[1.1] tracking-[-0.04em] lg:text-6xl">
-                Excellence in Coffee Processing Machinery
+                {t("home.title")}
               </h1>
               <p className="text-[#4a3f35] dark:text-[#cbbab0] text-lg font-normal leading-relaxed max-w-[500px]">
-                Industrias Jaber provides premium solutions for every stage of
-                your production, from harvesting the cherry to the perfect final
-                grind.
+                {t("home.subtitle")}
               </p>
             </div>
             <div className="flex gap-4">
               <Link href="/machinery">
                 <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-6 bg-buttons text-white text-base font-bold transition-transform hover:scale-105">
-                  Explore Machinery
+                  {t("home.exploreMachinery")}
                 </button>
               </Link>
               <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-6 border-2 border-[#181411] dark:border-white text-[#181411] dark:text-white text-base font-bold hover:bg-[#181411] hover:text-white dark:hover:bg-white dark:hover:text-background-dark transition-all">
-                Watch Demo
+                {t("home.watchDemo")}
               </button>
             </div>
           </div>
@@ -41,7 +44,7 @@ export default function Hero() {
             <div className="absolute -bottom-6 -left-6 bg-coffee-green p-6 rounded-xl shadow-xl text-white hidden @[864px]:block">
               <p className="text-3xl font-black">25+</p>
               <p className="text-xs font-medium uppercase tracking-tighter opacity-80">
-                Years of Experience
+                {t("home.yearsExperience")}
               </p>
             </div>
           </div>

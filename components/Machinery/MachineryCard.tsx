@@ -1,3 +1,7 @@
+"use client";
+
+import { useLanguage } from "@/lib/hooks/useLanguage";
+
 interface MachineryCardProps {
   category: string;
   title: string;
@@ -11,6 +15,8 @@ export default function MachineryCard({
   description,
   imageUrl,
 }: MachineryCardProps) {
+  const { t } = useLanguage();
+
   return (
     <div className="group bg-white dark:bg-[#382d22] rounded-2xl shadow-sm border border-[#e8e4e0] dark:border-[#3a2f24] overflow-hidden flex flex-col hover:shadow-xl transition-all duration-300">
       <div className="w-full aspect-[4/3] overflow-hidden">
@@ -30,7 +36,7 @@ export default function MachineryCard({
           {description}
         </p>
         <button className="w-full py-3 px-4 bg-background-light dark:bg-background-dark border border-[#e8e4e0] dark:border-[#3a2f24] rounded-xl text-sm font-bold hover:bg-primary hover:text-white hover:border-primary transition-all flex items-center justify-center gap-2">
-          <span>View Specifications</span>
+          <span>{t("machinery.card.viewButton")}</span>
           <span className="material-symbols-outlined text-lg">
             chevron_right
           </span>

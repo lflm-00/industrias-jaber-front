@@ -1,11 +1,19 @@
 "use client";
 
 import { useState } from "react";
-
-const categories = ["All", "Roasting", "Grinding", "Processing", "Cleaning"];
+import { useLanguage } from "@/lib/hooks/useLanguage";
 
 export default function CategoryFilter() {
+  const { t } = useLanguage();
   const [activeCategory, setActiveCategory] = useState("All");
+
+  const categories = [
+    "All",
+    t("machinery.categories.roasting"),
+    t("machinery.categories.grinding"),
+    t("machinery.categories.processing"),
+    t("machinery.categories.cleaning"),
+  ];
 
   return (
     <section className="sticky top-[73px] z-40 bg-background-light dark:bg-background-dark border-b border-[#e8e4e0] dark:border-[#3a2f24] py-4 px-4 lg:px-40">

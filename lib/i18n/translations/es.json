@@ -1,0 +1,236 @@
+{
+  "common": {
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "English",
+    "logo": "Industrias Jaber",
+    "copyright": "© 2024 Industrias Jaber S.A. Todos los derechos reservados.",
+    "tagline": "Soluciones de precisión para la industria cafetera global.",
+    "backToHome": "Volver al inicio",
+    "loading": "Cargando..."
+  },
+  "auth": {
+    "login": {
+      "title": "Industrias Jaber",
+      "subtitle": "Panel de Control",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "loginButton": "Iniciar sesión",
+      "loggingIn": "Iniciando sesión...",
+      "demoCredentials": "Credenciales de prueba:",
+      "emailPlaceholder": "user@example.com",
+      "passwordPlaceholder": "••••••••",
+      "invalidCredentials": "Email o contraseña inválidos",
+      "errors": {
+        "emailRequired": "El email es requerido",
+        "passwordRequired": "La contraseña es requerida",
+        "invalidEmail": "Email inválido"
+      }
+    },
+    "logout": "Cerrar sesión",
+    "hello": "¡Hola",
+    "dashboard": "Panel de Control",
+    "profile": "Perfil"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "userInfo": "Información del Usuario",
+    "name": "Nombre",
+    "email": "Email",
+    "id": "ID",
+    "orders": "Órdenes",
+    "ordersDescription": "Órdenes pendientes esta semana",
+    "customers": "Clientes",
+    "customersDescription": "Clientes activos en el sistema",
+    "revenue": "Ingresos",
+    "revenueDescription": "Ingresos del mes actual",
+    "recentActivity": "Actividad Reciente",
+    "orderCreated": "Orden creada",
+    "hoursAgo": "Hace {hours} horas",
+    "completed": "Completado",
+    "newCustomer": "Nuevo cliente registrado",
+    "new": "Nuevo",
+    "inventoryUpdate": "Actualización de inventario",
+    "inProgress": "En proceso"
+  },
+  "header": {
+    "home": "Inicio",
+    "processes": "Procesos",
+    "machinery": "Maquinaria",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar sesión"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "precision": "Ingeniería de precisión para la industria cafetera global. Sostenible, eficiente y construido para durar.",
+    "products": "Productos",
+    "roasters": "Tostadores",
+    "dryers": "Secadores",
+    "grinders": "Molinos",
+    "cleaningSystems": "Sistemas de Limpieza",
+    "company": "Empresa",
+    "process": "Proceso",
+    "sustainability": "Sostenibilidad",
+    "contact": "Contacto",
+    "headquarters": "Sede",
+    "address": "123 Calle del Café, Distrito Industrial",
+    "city": "Armenia - Quindío, Colombia",
+    "phone": "+57 (316) 660-5222",
+    "allRightsReserved": "© 2024 Industrias Jaber S.A. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "home": {
+    "tag": "Ingeniería Innovadora",
+    "title": "Excelencia en Maquinaria de Procesamiento de Café",
+    "subtitle": "Industrias Jaber proporciona soluciones premium para cada etapa de tu producción, desde la recolección de la cereza hasta el molido perfecto.",
+    "exploreMachinery": "Explorar Maquinaria",
+    "watchDemo": "Ver Demo",
+    "yearsExperience": "Años de Experiencia",
+    "processes": {
+      "title": "Nuestros Procesos",
+      "subtitle": "Soluciones completas de procesamiento de café",
+      "harvesting": "Recolección",
+      "harvestingDesc": "Nuestra tecnología avanzada de clasificación y limpieza garantiza que solo las mejores cerezas avancen en tu línea de producción.",
+      "roasting": "Tostado",
+      "roastingDesc": "Control de temperatura de precisión y gestión del flujo de aire para lograr el perfil de grano perfecto cada vez.",
+      "grinding": "Molido",
+      "grindingDesc": "Distribución uniforme del tamaño de partículas para la extracción óptima. Diseñado para entornos industriales de alto volumen."
+    },
+    "cta": {
+      "title": "¿Listo para elevar tu producción de café?",
+      "subtitle": "Únete a cientos de cultivadores y tostadores que han escalado su negocio con maquinaria Jaber. Contacta a nuestros expertos hoy para una consulta de maquinaria personalizada.",
+      "contactButton": "Contactarnos",
+      "catalogButton": "Solicitar Catálogo"
+    }
+  },
+  "machinery": {
+    "hero": {
+      "tag": "Catálogo de Productos",
+      "title": "Maquinaria para Cada Etapa",
+      "description": "Explora nuestra línea de equipos industriales de alto rendimiento diseñados específicamente para las demandas únicas de la producción cafetera."
+    },
+    "categories": {
+      "roasting": "Tostado",
+      "grinding": "Molido",
+      "processing": "Procesamiento",
+      "cleaning": "Limpieza"
+    },
+    "card": {
+      "viewButton": "Ver Especificaciones"
+    },
+    "cta": {
+      "title": "¿Necesitas una solución de maquinaria personalizada?",
+      "subtitle": "Nuestro equipo de ingeniería se especializa en diseño de líneas de producción personalizadas. Hablemos sobre cómo podemos optimizar la eficiencia de tu instalación.",
+      "consultButton": "Solicitar Consulta",
+      "brochureButton": "Descargar Folleto"
+    },
+    "title": "Maquinaria",
+    "subtitle": "Equipamiento profesional para la industria cafetera",
+    "noResults": "No se encontraron resultados",
+    "filterBy": "Filtrar por"
+  },
+  "about": {
+    "hero": {
+      "tag": "Legado e Innovación",
+      "title": "Décadas de Perfección en Ingeniería",
+      "description": "De un pequeño taller a líder global en procesamiento de café, nuestro viaje está definido por la pasión por el grano perfecto."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraph1": "Fundada en el corazón de la región cafetera, Industrias Jaber comenzó con una sola visión: construir maquinaria que respete la naturaleza artesanal del café mientras proporciona la eficiencia de la ingeniería moderna. Nuestro fundador, un ingeniero y cultivador de café de tercera generación, vio la necesidad de herramientas de precisión que pudieran resistir los rigores de la producción industrial sin sacrificar los perfiles sutiles de los granos especiales.",
+      "paragraph2": "Hoy, combinamos la artesanía tradicional con controles digitales de última generación, asegurando que cada máquina que sale de nuestro piso sea un testimonio de nuestro legado y una herramienta para tu crecimiento futuro.",
+      "founded": "Fundada",
+      "countries": "Países Atendidos",
+      "quote": "Ingeniería del alma del café desde 1984."
+    },
+    "corePrinciples": {
+      "tag": "Principios Clave",
+      "title": "Misión y Valores",
+      "sustainability": "Sostenibilidad",
+      "sustainabilityDesc": "Diseñamos maquinaria que minimiza el consumo de energía y el desperdicio de agua, asegurando que la industria cafetera prospere para las generaciones futuras.",
+      "innovation": "Innovación",
+      "innovationDesc": "La investigación y desarrollo constante nos permite integrar sensores inteligentes y perfiles de tostado impulsados por IA en cada máquina que construimos.",
+      "quality": "Calidad",
+      "qualityDesc": "Utilizando solo materiales premium como acero inoxidable de grado alimenticio y motores de servicio pesado, nuestras máquinas están construidas para durar."
+    },
+    "leadership": {
+      "tag": "Liderazgo",
+      "title": "Conoce a los Expertos",
+      "description": "Nuestro equipo reúne ingenieros mecánicos, maestros tostadores y agrónomos para proporcionar una perspectiva de 360° sobre la tecnología cafetera.",
+      "alejandro": {
+        "name": "Alejandro Jaber",
+        "role": "CEO y Fundador",
+        "description": "Un ingeniero visionario con 40 años de experiencia en dinámica térmica y ciencia del café."
+      },
+      "elena": {
+        "name": "Elena Martínez",
+        "role": "Directora de I+D",
+        "description": "Liderando la transición hacia maquinaria habilitada para IoT y tecnologías de tostado sostenibles."
+      },
+      "julian": {
+        "name": "Julián Rojas",
+        "role": "Director de Operaciones",
+        "description": "Garantizando que cada cliente en 5 continentes reciba soporte e instalación de clase mundial."
+      },
+      "sofia": {
+        "name": "Sofía Gómez",
+        "role": "Maestra Tostadora Principal",
+        "description": "Cerrando la brecha entre ingeniería y la taza perfecta, probando personalmente cada prototipo."
+      }
+    },
+    "title": "Acerca de Nosotros",
+    "hero": "Liderando la Innovación en la Industria Cafetera",
+    "story": "Nuestra Historia",
+    "corePrinciples": "Principios Clave"
+  },
+  "contact": {
+    "hero": {
+      "tag": "Ponte en Contacto",
+      "title": "Contacta a Nuestros Expertos Técnicos",
+      "description": "Ya sea que busques iniciar una nueva instalación de tostado o actualizar tu equipamiento de molienda industrial, nuestro equipo está aquí para brindarte orientación profesional."
+    },
+    "info": {
+      "location": {
+        "title": "Sede Principal",
+        "address1": "123 Calle del Café, Distrito Industrial",
+        "address2": "Plaza de Maquinaria, Suite 400",
+        "address3": "Bogotá, Colombia 110111"
+      },
+      "phone": {
+        "title": "Línea Directa",
+        "number": "+57 (1) 555-0123",
+        "hours": "Lunes - Viernes, 8am a 6pm COT"
+      },
+      "email": {
+        "title": "Email Oficial",
+        "primary": "contact@industriasjaber.com",
+        "support": "support@industriasjaber.com"
+      }
+    },
+    "form": {
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "John Doe",
+      "companyLabel": "Nombre de la Empresa",
+      "companyPlaceholder": "Roasters Co.",
+      "emailLabel": "Email de Trabajo",
+      "emailPlaceholder": "john@company.com",
+      "helpLabel": "¿Cómo podemos ayudarte?",
+      "option1": "Consulta de Maquinaria",
+      "option2": "Soporte de Mantenimiento",
+      "option3": "Ingeniería Personalizada",
+      "option4": "Asociación",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto o necesidades específicas de maquinaria...",
+      "submitButton": "Enviar Mensaje",
+      "responseTime": "Generalmente respondemos dentro de 1 día hábil."
+    },
+    "title": "Contacto",
+    "getInTouch": "Ponte en Contacto",
+    "sendMessage": "Enviar Mensaje",
+    "successMessage": "Mensaje enviado exitosamente",
+    "errorMessage": "Error al enviar el mensaje"
+  }
+}

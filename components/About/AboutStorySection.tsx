@@ -1,25 +1,31 @@
+"use client";
+
+import { useLanguage } from "@/lib/hooks/useLanguage";
+
 export default function AboutStorySection() {
+  const { t } = useLanguage();
+
   return (
     <section className="px-4 lg:px-40 py-16">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-16 items-center">
         <div className="flex-1 space-y-6">
-          <h2 className="text-3xl font-black text-[#181411] dark:text-white">Our Story</h2>
+          <h2 className="text-3xl font-black text-[#181411] dark:text-white">{t("about.story.title")}</h2>
           <div className="w-16 h-1 bg-primary"></div>
           <p className="text-[#4a3f35] dark:text-[#cbbab0] leading-relaxed">
-            Founded in the heart of the coffee belt, Industrias Jaber began with a single vision: to build machinery that respects the artisanal nature of coffee while providing the efficiency of modern engineering. Our founder, an engineer and third-generation coffee grower, saw the need for precision tools that could withstand the rigors of industrial production without sacrificing the subtle profiles of specialty beans.
+            {t("about.story.paragraph1")}
           </p>
           <p className="text-[#4a3f35] dark:text-[#cbbab0] leading-relaxed">
-            Today, we combine traditional craftsmanship with cutting-edge digital controls, ensuring that every piece of machinery leaving our floor is a testament to our heritage and a tool for your future growth.
+            {t("about.story.paragraph2")}
           </p>
 
           <div className="grid grid-cols-2 gap-8 pt-4">
             <div>
               <p className="text-3xl font-black text-primary">1984</p>
-              <p className="text-xs uppercase font-bold tracking-widest text-[#897561]">Founded</p>
+              <p className="text-xs uppercase font-bold tracking-widest text-[#897561]">{t("about.story.founded")}</p>
             </div>
             <div>
               <p className="text-3xl font-black text-primary">45+</p>
-              <p className="text-xs uppercase font-bold tracking-widest text-[#897561]">Countries Served</p>
+              <p className="text-xs uppercase font-bold tracking-widest text-[#897561]">{t("about.story.countries")}</p>
             </div>
           </div>
         </div>
@@ -33,7 +39,7 @@ export default function AboutStorySection() {
             }}
           ></div>
           <div className="absolute -bottom-6 -right-6 bg-coffee-green p-6 rounded-xl shadow-xl text-white hidden lg:block">
-            <p className="italic font-medium">Engineering the soul of coffee since 1984.</p>
+            <p className="italic font-medium">{t("about.story.quote")}</p>
           </div>
         </div>
       </div>
