@@ -36,7 +36,7 @@ const contactInfo = [
   },
 ];
 
-const ContactSection: React.FC = () => {
+const ContactSection = () => {
   return (
     <section className="px-4 lg:px-40 py-16 lg:py-24 relative z-10">
       <div className="max-w-[1200px] mx-auto">

@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer";
-import MachineryHero from "@/components/Machinery/MachineryHero";
-import CategoryFilter from "@/components/Machinery/CategoryFilter";
-import MachineryGrid from "@/components/Machinery/MachineryGrid";
-import MachineryCTA from "@/components/Machinery/MachineryCTA";
+import { MachineryHero, CategoryFilter, MachineryGrid, MachineryCTA } from "@/components/Machinery";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components";
 
 export const metadata: Metadata = {
   title: "Machinery Catalog - Industrias Jaber",

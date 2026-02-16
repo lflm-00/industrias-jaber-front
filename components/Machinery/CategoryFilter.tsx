@@ -16,7 +16,7 @@ export default function CategoryFilter() {
             onClick={() => setActiveCategory(category)}
             className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${
               activeCategory === category
-                ? "bg-primary text-white font-bold"
+                ? "bg-buttons text-white font-bold"
                 : "bg-white dark:bg-[#382d22] text-[#181411] dark:text-white border border-[#e8e4e0] dark:border-[#3a2f24] hover:bg-primary/10 hover:border-primary"
             }`}
           >

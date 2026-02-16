@@ -1,8 +1,4 @@
-import Header from "@/components/Header/Header";
-import Hero from "@/components/Home/Hero";
-import Processes from "@/components/Home/Processes";
-import CTA from "@/components/Home/CTA";
-import Footer from "@/components/Footer";
+import { Header, Hero, Processes, CTA, Footer } from "@/components";
 
 export default function Home() {
   return (
