@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -6,11 +7,7 @@ export default function Footer() {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
           <div className="flex items-center gap-2 mb-6">
-            <div className="size-6 text-primary">
-              <span className="material-symbols-outlined text-2xl">
-                coffee_maker
-              </span>
-            </div>
+            <Logo width={32} height={32} className="text-primary" />
             <h2 className="text-[#181411] dark:text-white text-lg font-bold">
               Industrias Jaber
             </h2>

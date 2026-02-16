@@ -42,7 +42,7 @@ const ContactForm: React.FC = () => {
         </div>
 
         <button
-          className="mt-4 flex w-full cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/30 transition-all hover:bg-[#b8630f] hover:scale-[1.02] active:scale-95"
+          className="mt-4 flex w-full cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-buttons text-white text-lg font-bold shadow-xl shadow-primary/30 transition-all hover:bg-[#b8630f] hover:scale-[1.02] active:scale-95"
           type="submit"
         >
           <span className="material-symbols-outlined mr-2">send</span>

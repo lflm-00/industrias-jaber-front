@@ -21,7 +21,7 @@ export default function Hero() {
             </div>
             <div className="flex gap-4">
               <Link href="/machinery">
-                <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-6 bg-primary text-white text-base font-bold transition-transform hover:scale-105">
+                <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-6 bg-buttons text-white text-base font-bold transition-transform hover:scale-105">
                   Explore Machinery
                 </button>
               </Link>

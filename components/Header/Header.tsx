@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Logo from "../Logo";
 import styles from "./Header.module.scss";
 
 
@@ -22,9 +23,7 @@ export default function Header() {
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <span className="material-symbols-outlined text-4xl text-primary">
-            coffee_maker
-          </span>
+          <Logo width={40} height={40} className="text-primary" />
           <h2 className="text-[#181411] dark:text-white text-xl font-black">
             Industrias Jaber
           </h2>
@@ -58,9 +57,7 @@ export default function Header() {
             {/* Header del drawer: botón de cerrar + logo */}
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-3xl text-primary">
-                  coffee_maker
-                </span>
+                <Logo width={32} height={32} className="text-primary" />
                 <h2 className="text-inherit text-base font-bold">
                   Industrias Jaber
                 </h2>
