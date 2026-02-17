@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 import Logo from "../Logo";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -12,6 +12,7 @@ import styles from "./Header.module.scss";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useLanguage();
+  const ref = useRef<HTMLDivElement>(null);
 
   // Cerrar drawer con ESC
   useEffect(() => {
@@ -22,8 +23,22 @@ export default function Header() {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
+  // Cerrar al hacer click fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (ref.current && !ref.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isOpen]);
+
   return (
-    <header className="sticky top-0 z-50 border-b border-[#e8e4e0] dark:border-[#3a2f24] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-4 lg:px-40">
+    <header ref={ref} className="sticky top-0 z-50 border-b border-[#e8e4e0] dark:border-[#3a2f24] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-4 lg:px-40">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">

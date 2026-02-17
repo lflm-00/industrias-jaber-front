@@ -14,7 +14,7 @@ export function LanguageSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
-  // Cerrar si se hace click fuera
+  // Cerrar al hacer click fuera
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (ref.current && !ref.current.contains(event.target as Node)) {
@@ -38,7 +38,29 @@ export function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute right-0 mt-2 w-40 bg-white dark:bg-[#2d241b] border border-gray-200 dark:border-[#4a3f35] rounded-xl shadow-lg overflow-hidden z-50">
+        <div
+          className="
+            absolute 
+            top-full 
+            mt-2 
+            min-w-[150px] 
+            max-w-[90vw]
+            left-1/2 
+            -translate-x-1/2 
+            sm:left-auto 
+            sm:translate-x-0 
+            sm:right-0
+            bg-white 
+            dark:bg-[#2d241b] 
+            border 
+            border-gray-200 
+            dark:border-[#4a3f35] 
+            rounded-xl 
+            shadow-lg 
+            overflow-hidden 
+            z-50
+          "
+        >
           {languages.map((lang) => (
             <button
               key={lang.code}
@@ -46,7 +68,7 @@ export function LanguageSwitcher() {
                 setLanguage(lang.code);
                 setOpen(false);
               }}
-              className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-[#3a2f24] transition ${
+              className={`w-full text-left px-4 py-2 text-sm transition hover:bg-gray-100 dark:hover:bg-[#3a2f24] ${
                 language === lang.code
                   ? "font-semibold text-primary"
                   : "text-gray-700 dark:text-gray-200"
