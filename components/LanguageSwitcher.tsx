@@ -1,24 +1,62 @@
 "use client";
 
+import { useState, useRef, useEffect } from "react";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 import { Language } from "@/lib/i18n";
 
+const languages: { code: Language; labelKey: string }[] = [
+  { code: "es", labelKey: "common.spanish" },
+  { code: "en", labelKey: "common.english" },
+];
+
 export function LanguageSwitcher() {
   const { language, setLanguage, t } = useLanguage();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  // Cerrar si se hace click fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (ref.current && !ref.current.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
-    <div className="flex items-center gap-2">
-      <span className="material-symbols-outlined text-lg text-gray-600 dark:text-gray-300">
-        language
-      </span>
-      <select
-        value={language}
-        onChange={(e) => setLanguage(e.target.value as Language)}
-        className="px-3 py-2 bg-white dark:bg-[#2d241b] border border-gray-300 dark:border-[#4a3f35] rounded-lg text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-[#3a2f24] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-gray-100 dark:hover:bg-[#3a2f24] transition"
       >
-        <option value="es">{t("common.spanish")}</option>
-        <option value="en">{t("common.english")}</option>
-      </select>
+        <span className="material-symbols-outlined text-gray-600 dark:text-gray-300">
+          language
+        </span>
+      </button>
+
+      {open && (
+        <div className="absolute right-0 mt-2 w-40 bg-white dark:bg-[#2d241b] border border-gray-200 dark:border-[#4a3f35] rounded-xl shadow-lg overflow-hidden z-50">
+          {languages.map((lang) => (
+            <button
+              key={lang.code}
+              onClick={() => {
+                setLanguage(lang.code);
+                setOpen(false);
+              }}
+              className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-[#3a2f24] transition ${
+                language === lang.code
+                  ? "font-semibold text-primary"
+                  : "text-gray-700 dark:text-gray-200"
+              }`}
+            >
+              {t(lang.labelKey)}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

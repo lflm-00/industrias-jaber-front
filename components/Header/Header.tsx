@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 import Logo from "../Logo";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import styles from "./Header.module.scss";
 
 
@@ -37,7 +38,8 @@ export default function Header() {
           <nav className="flex items-center gap-8">
             <NavLinks t={t} />
           </nav>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
+            <ThemeSwitcher />
             <LanguageSwitcher />
           </div>
         </div>
@@ -78,8 +80,9 @@ export default function Header() {
               </button>
             </div>
 
-            {/* Language Switcher Mobile */}
-            <div className="mb-6 pb-6 border-b border-[#e8e4e0] dark:border-[#3a2f24]">
+            {/* Language & Theme Switcher Mobile */}
+            <div className="mb-6 pb-6 border-b border-[#e8e4e0] dark:border-[#3a2f24] flex items-center gap-3">
+              <ThemeSwitcher />
               <LanguageSwitcher />
             </div>
 
