@@ -48,7 +48,7 @@ export const machineryProducts: MachineryProduct[] = [
       "Ultra-uniform particle distribution for industrial scale. Water-cooled discs to preserve aroma during high-volume production.",
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDK4fyH8f55RyJciOvAr60lsFO_sNXTzzE9tdym4IzAVT_6GSbzsMeKzZtiHNeXAfR2cSLuBiHsHEBp39dAOAybu5AWVKCdCOeh_2JqSWBFlAfxcd8xnC4FqlwKjYBNs9_smeOoMK8iOyc-mYOGNL001TSPc49vfIG8GmLdIvlAA7VnSsWTLHZIswF3sBpvgusiEhS0NcdPY7fAeExLjc7bwd6S5F67cU819vvogAUUl2ftuhu8a1diwbVqj-JR7JFy9BNURvj70Zw",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "oGyR5mVl1_o",
     specs: [
       { label: "Motor Power", value: "15 HP" },
       { label: "Grinding Capacity", value: "500 kg/h" },
@@ -67,7 +67,7 @@ export const machineryProducts: MachineryProduct[] = [
       "Multi-stage air density separator combined with optical color sorting for defect-free green coffee preparation.",
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDsSHOpYrMA8Pgi65v7lOBBf4lqNnRJjusN8u6qA5yJEzNYgOaehZPMd-w64HxSpqQtf3ROtdt2wfAIajpDp4O7vj5HLDWE-PReDDIyVmcVwNhoff5SyFNo2cmpkYa7QDqUp9Q4YM26nrfqn-eVuIoWLLebGFyItY2iAplRjc9iaZ9CEwq4OXTF7jn3oFlsaTvU4l_Jl7miEeG2rqxo6FbdO1Saw1yrI83KhHbWWFA2rohFoBdaTPDjVbRCqFNUQxSeoUYKBi3jS-Y",
-    videoId: "9bZkp7q19f0",
+    videoId: "Ztei0ojbnoc",
     specs: [
       { label: "Sorting Capacity", value: "2,000 kg/h" },
       { label: "Camera Resolution", value: "5K Multi-spectral" },
@@ -86,7 +86,7 @@ export const machineryProducts: MachineryProduct[] = [
       "Horizontal rotary dryer with controlled humidity sensors to ensure perfect moisture content (10-12%) for export.",
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCqKO_sn8Cgf3ARTF-oHtpdQOn8tupfNYY3uvHvh_9EpoNTMXOXyq_hMykdtv-74qFHoQC2EPdCAOu_serT1LD1PQi-u42OGKCkxsRGhItNydsKQiMiSpixqSgMZNDHPAPoaU-dJyBPlx0oBK5NwXY-LGnRCX56sLxIRDI78yJ2KZSlEr1eXRlgKGG-qCdAAYHbv08YZE597fgK1laGdtHQnI9Gwd3AaQ2KukEbK01rSJ-hU-ZYzI1oMrfT2FSuq_jnbyZxx2utai0",
-    videoId: "kJQP7kiw5Fk",
+    videoId: "dPQSjuplCPs",
     specs: [
       { label: "Drying Capacity", value: "1,500 kg/batch" },
       { label: "Heat Source", value: "Gas / Biomass" },
@@ -105,7 +105,7 @@ export const machineryProducts: MachineryProduct[] = [
       "Specialized 5kg roaster for quality control laboratories and specialty coffee micro-lots. Professional control in a compact size.",
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDjBb7O4AbJOghUWQioEesOsR0GLtiPsjCXSSc9FD1pnfuR7chFPcQqe31_fwd3Z6pawOVxGqVeN6seajRDwOyHbYQ4jnWggsjFogNbX6oopiA1Q40sfTXGiPzdQP035Uxs2hIJnpDq4umOpP2zirKwZ5YigZ5Gr1rXLo4kHi2zM-YwhjIdBht_Xmf0H4w066g8nFmXMSOHunmrebhAxGTP3EgKSvMAPpwbfKQAJUP8EHu0ayhR8ETXbpXoS4C9el46U7xuiCm3PxE",
-    videoId: "u3tKqloxh9w",
+    videoId: "pMbhXPPCKHo",
     specs: [
       { label: "Batch Capacity", value: "5 kg" },
       { label: "Power Supply", value: "220V / Single Phase" },
@@ -124,7 +124,7 @@ export const machineryProducts: MachineryProduct[] = [
       "Versatile modular grinding system designed for instant coffee production and high-volume espresso grinds.",
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDK4fyH8f55RyJciOvAr60lsFO_sNXTzzE9tdym4IzAVT_6GSbzsMeKzZtiHNeXAfR2cSLuBiHsHEBp39dAOAybu5AWVKCdCOeh_2JqSWBFlAfxcd8xnC4FqlwKjYBNs9_smeOoMK8iOyc-mYOGNL001TSPc49vfIG8GmLdIvlAA7VnSsWTLHZIswF3sBpvgusiEhS0NcdPY7fAeExLjc7bwd6S5F67cU819vvogAUUl2ftuhu8a1diwbVqj-JR7JFy9BNURvj70Zw",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "xQNSED2qZes",
     specs: [
       { label: "Motor Power", value: "25 HP" },
       { label: "Production Rate", value: "800 kg/h" },

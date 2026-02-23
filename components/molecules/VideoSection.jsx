@@ -17,7 +17,7 @@ export const VideoSection = ({ videoid }) => {
 
   return (
     <div className="w-full aspect-video bg-black relative">
-      <lite-youtube videoid={videoid} short/>
+      <lite-youtube videoid={videoid} />
     </div>
   );
 };
