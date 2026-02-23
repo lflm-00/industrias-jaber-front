@@ -78,17 +78,17 @@ export default function Header() {
           ></div>
 
           {/* Drawer */}
-          <div className={styles.drawer}>
+          <div className={`${styles.drawer} bg-white dark:bg-[#1c1512] text-[#181411] dark:text-[#f8f7f6]`}>
             {/* Header del drawer: botón de cerrar + logo */}
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center gap-2">
                 <Logo width={32} height={32} className="text-primary" />
-                <h2 className="text-inherit text-base font-bold">
+                <h2 className="text-[#181411] dark:text-[#f8f7f6] text-base font-bold">
                   Industrias Jaber
                 </h2>
               </div>
               <button
-                className="text-[#181411] dark:text-white"
+                className="text-[#181411] dark:text-[#f8f7f6] hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 <span className="material-symbols-outlined text-3xl">close</span>
@@ -96,7 +96,7 @@ export default function Header() {
             </div>
 
             {/* Language & Theme Switcher Mobile */}
-            <div className="mb-6 pb-6 border-b border-[#e8e4e0] dark:border-[#3a2f24] flex items-center gap-3">
+            <div className="mb-6 pb-6 border-b border-[#e8e4e0] dark:border-[#443931] flex items-center gap-3">
               <ThemeSwitcher />
               <LanguageSwitcher />
             </div>
@@ -115,7 +115,7 @@ export default function Header() {
 
 function NavLinks({ onClick, t }: { onClick?: () => void; t: (key: string) => string }) {
   const linkClass =
-    "text-[#181411] dark:text-[#f8f7f6] text-sm font-semibold hover:text-primary transition-colors";
+    "text-[#181411] dark:text-[#f8f7f6] text-base md:text-sm font-semibold hover:text-primary dark:hover:text-primary transition-colors";
   return (
     <>
       <Link href="/" className={linkClass} onClick={onClick}>

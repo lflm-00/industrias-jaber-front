@@ -23,50 +23,17 @@ $drawer-padding: 2rem;
   left: 0;
   height: 100vh;
   width: $drawer-width;
-  background-color: var(--background-light, #fff);
-  color: var(--text-dark, #181411);
   z-index: 50;
   padding: $drawer-padding;
   display: flex;
   flex-direction: column;
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
 
   /* Animación */
   &.animate-slide-in {
     animation: slide-in 0.3s ease forwards;
-  }
-
-  /* Header del drawer (logo + botón) */
-  .drawer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-
-      span {
-        font-size: 1.75rem; // icono más pequeño que en header
-        color: var(--primary, #b8630f);
-      }
-
-      h2 {
-        font-size: 0.875rem; // text-base más pequeño
-        font-weight: 700;
-        color: inherit;
-      }
-    }
-
-    .close-btn {
-      span {
-        font-size: 1.75rem;
-        color: inherit;
-      }
-    }
   }
 
   /* Navegación dentro del drawer */
@@ -76,22 +43,10 @@ $drawer-padding: 2rem;
     gap: 1.5rem;
 
     a {
-      font-size: 0.875rem;
       font-weight: 600;
-      color: inherit;
       text-decoration: none;
       transition: color 0.2s;
-
-      &:hover {
-        color: var(--primary, #b8630f);
-      }
     }
-  }
-
-  /* Modo oscuro */
-  @media (prefers-color-scheme: dark) {
-    background-color: var(--background-dark, #1c1a18);
-    color: #f8f7f6;
   }
 }
 
