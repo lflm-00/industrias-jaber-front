@@ -3,3 +3,4 @@ export { default as MachineryCard } from "./MachineryCard";
 export { default as MachineryCTA } from "./MachineryCTA";
 export { default as MachineryGrid } from "./MachineryGrid";
 export { default as MachineryHero } from "./MachineryHero";
+export { default as MachineryContainer } from "./MachineryContainer";

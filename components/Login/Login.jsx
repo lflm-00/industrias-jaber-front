@@ -7,7 +7,7 @@ import { useLanguage } from "@/lib/hooks/useLanguage";
 import Link from "next/link";
 import FormSection from "@/components/FormSection/FormSection";
 import Input from "@/components/Input/Input";
-import Button from "@/components/Button/Button";
+import Button from "@/components/Atoms/Button/Button";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 const LoginComponent = () => {
