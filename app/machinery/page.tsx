@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MachineryHero, CategoryFilter, MachineryGrid, MachineryCTA } from "@/components/Machinery";
+import { MachineryHero, MachineryContainer, MachineryCTA } from "@/components/Machinery";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components";
 
@@ -15,8 +15,7 @@ export default function MachineryPage() {
       <Header />
       <main className="flex-1">
         <MachineryHero />
-        <CategoryFilter />
-        <MachineryGrid />
+        <MachineryContainer />
         <MachineryCTA />
       </main>
       <Footer />

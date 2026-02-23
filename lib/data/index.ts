@@ -10,4 +10,5 @@ export {
   getMachineryByCategory,
   getCategories,
   type MachineryProduct,
+  type MachinerySpec,
 } from "./machinery";
