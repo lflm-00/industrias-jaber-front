@@ -12,3 +12,5 @@ export {
   type MachineryProduct,
   type MachinerySpec,
 } from "./machinery";
+
+export { processesData, type ProcessData } from "./processes";
