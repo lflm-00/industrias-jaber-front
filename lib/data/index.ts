@@ -15,3 +15,4 @@ export {
 
 export { processesData, type ProcessData } from "./processes";
 export { heroData, type HeroData } from "./hero";
+export { leadershipData, type LeaderData } from "./leadership";
