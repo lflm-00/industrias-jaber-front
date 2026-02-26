@@ -1,16 +1,15 @@
 "use client";
 
-import { Footer, Header, Login } from "@/components";
-
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
-    return (
-        <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden">
-            <Header />
-            <main className="flex-1">
-                <Login />
-            </main>
-            <Footer />
-        </div>
-    );
+    const router = useRouter();
+
+    useEffect(() => {
+        // Redirigir al home - login deshabilitado temporalmente
+        router.replace("/");
+    }, [router]);
+
+    return null;
 }
