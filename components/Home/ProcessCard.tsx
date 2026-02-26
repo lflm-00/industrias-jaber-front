@@ -19,20 +19,18 @@ export default function ProcessCard({
 }: ProcessCardProps) {
   return (
     <div
-      className={`group flex flex-col gap-5 bg-white dark:bg-[#382d22] p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 ${
-        featured ? "border-t-4 border-primary" : ""
-      }`}
+      className={`group flex flex-col gap-5 bg-white dark:bg-[#382d22] p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 ${featured ? "border-t-4 border-primary" : ""
+        }`}
     >
-      <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+      <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-800">
         <Image
           src={imageUrl}
           alt={title}
           fill
-          className="object-cover transition-all duration-300 group-hover:scale-105"
+          className="object-contain transition-all duration-300 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, 33vw"
         />
-
-        <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all" />
+        <div className="absolute inset-0 group-hover:bg-transparent transition-all" />
       </div>
 
       <div className="flex flex-col gap-2">

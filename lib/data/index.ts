@@ -14,3 +14,4 @@ export {
 } from "./machinery";
 
 export { processesData, type ProcessData } from "./processes";
+export { heroData, type HeroData } from "./hero";
